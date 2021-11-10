@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PORTFOLIO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="" href="C:\Users\User\Desktop/download.png">
+	<style>
+		.container1
+		{
+			display: grid;
+			grid-template-rows: 100px;
+			position: sticky;
+			top: 0;
+		}
+		.box1
+		{
+			background: gray;
+			text-align: center;
+			padding-top: 30px;
+			border: 5px dashed white;
+		}
+		a
+		{
+			color: white;
+			font-size: 30px;
+			text-decoration: none;
+			position: sticky;
+		}
+		a:hover
+		{
+			background: cyan;
+			color: black;
+			text-decoration-line: underline;
+			text-decoration-color: red;
+			border-radius: 10px;
+			transition: all .5s;
+			font-style: italic;
+		}
+		hr 
+		{
+			box-shadow: 4px 4px 5px grey;
+		}
+		hr 
+		{
+			border-radius: 10px;
+			border: 3px solid thick;
+			background: white;
+			height: 10px;
+			animation-name: line;
+			animation-duration: 1s;
+			animation-timing-function: ease;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes line 
+		{
+			0%{background: red;}
+			50%{background: lime;}
+			100%{background: cyan;}
+		}
+		.container2
+		{
+			display: grid;
+			grid-template-rows: 300px;
+		}
+		.box2
+		{
+			border: 5px solid darkkhaki;
+			text-align: center;
+			padding-top: 90px;
+			position: relative;
+			overflow: hidden;
+		}
+		.box2 h1
+		{
+			width: 100%;
+			height: auto;
+		}
+		.content2
+		{
+			background-image: url("C:/Users/User/Desktop/download (1).jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: absolute;
+			top: -100%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			transition: all .5s;
+		}
+		.box2:hover .content2
+		{
+			top: 0;
+		}
+		p 
+		{
+			font-size: 50px;
+		}
+		.container3
+		{
+			display: grid;
+			grid-template-rows: 300px;
+		}
+		.box3
+		{
+			border: 5px solid yellow;
+			text-align: center;
+			padding-top: 90px;
+			position: relative;
+			overflow: hidden;
+		}
+		.box3 h1
+		{
+			width: 100%;
+			height: auto;
+		}
+		.content3
+		{
+			background-image: url("C:/Users/User/Desktop/Mountains.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: absolute;
+			top: 0%;
+			left: -100%;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			transition: all .5s;
+		}
+		.box3:hover .content3
+		{
+			left: 0;
+		}
+		.container4
+		{
+			display: grid;
+			grid-template-rows: 300px;
+		}
+		.box4
+		{
+			border: 5px solid purple;
+			text-align: center;
+			padding-top: 90px;
+			position: relative;
+			overflow: hidden;
+		}
+		.box4 h1
+		{
+			width: 100%;
+			height: auto;
+		}
+		.content4
+		{
+			background-image: url("C:/Users/User/Desktop/download (2).jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: absolute;
+			top: 0%;
+			right: -100%;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			transition: all .5s;
+		}
+		.box4:hover .content4
+		{
+			right: 0;
+		}
+		.container5
+		{
+			display: grid;
+			grid-template-rows: 300px;
+		}
+		.box5
+		{
+			border: 5px solid darkblue;
+			text-align: center;
+			padding-top: 90px;
+			position: relative;
+			overflow: hidden;
+		}
+		.box5 h1
+		{
+			width: 100%;
+			height: auto;
+		}
+		.content5
+		{
+			background-image: url("C:/Users/User/Desktop/city.jpg");
+			background-size: 100% 100%;
+			position: absolute;
+			top: 0%;
+			left: -100%;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			transition: all .5s;
+		}
+		.box5:hover .content5
+		{
+			left: 0;
+		}
+		.container6
+		{
+			display: grid;
+			grid-template-rows: 300px;
+		}
+		.box6
+		{
+			border: 5px solid teal;
+			text-align: center;
+			padding-top: 90px;
+			position: relative;
+			overflow: hidden;
+		}
+		.box6 h1
+		{
+			width: 100%;
+			height: auto;
+		}
+		.content6
+		{
+			background-image: url("C:/Users/User/Desktop/sweden.jpg");
+			background-size: 100% 100%;
+			position: absolute;
+			top: 0%;
+			top: -100%;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 50px;
+			box-sizing: border-box;
+			transition: all .5s;
+		}
+		.box6:hover .content6
+		{
+			top: 0;
+		}
+		.container7
+		{
+			display: grid;
+			grid-template-rows: 100px;
+			position: sticky;
+			bottom: 0;
+		}
+		.box7
+		{
+			border: 5px dashed white;
+			background: linear-gradient(-45deg,orange,black);
+			text-align: center;
+			font-size: 30px;
+			font-family:Algerian;
+			text-shadow: 1px 1px 1px blue;
+			text-decoration-line: underline;
+			text-decoration-color: red;
+		}
+		.box7 button
+		{
+			border-image: linear-gradient(-90deg,red,blue);
+			border-image-slice: 3;
+			border-width: 3px;
+			background: gray;
+			box-shadow: none;
+			letter-spacing: 2px;
+		}
+		.box7 button a:hover
+		{
+			background: transparent;
+			text-decoration: none;
+			color: white;
+			font-style: none;
+		}
+		.box7 button:before
+		{
+			content: "\21E7";
+			width: 10px;
+			font-size: 30px;
+			border-right: 3px solid black;
+			animation-name: arrow;
+			animation-duration: 5s;
+			animation-timing-function: ease;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes arrow
+		{
+			50%{color: white;}
+			100%{color: purple;}
+		}
+		li 
+		{
+			font-size: 30px;
+			list-style: none;
+			letter-spacing: 3px;
+		}
+		li:before
+		{
+			content: "\21E8";
+			color: red;
+			animation-name: li;
+			animation-duration: 5s;
+			animation-timing-function: ease;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes li  
+		{
+			50%{color: lime;}
+			100%{color: blue;}
+		}
+		::-webkit-scrollbar
+		{
+			width: 20px;
+		}
+		::-webkit-scrollbar-track
+		{
+			background: yellow;
+			border-radius: 20px;
+		}
+		::-webkit-scrollbar-track:hover
+		{
+			background: black;
+			transition: all .5s;
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background: linear-gradient(red,cyan);
+			border-radius: 20px;
+		}
+		::-webkit-scrollbar-thumb:hover
+		{
+			background: black;
+			transition: all .3s;
+			border: 2px solid plum;
+		}
+		h1
+		{
+			color: grey;
+			text-shadow: 3px 3px 3px lime;
+		}
+		u 
+		{
+			text-decoration-color:red;
+			text-decoration-style: wavy;
+		}
+		#menu
+		{
+			position: sticky;
+			top: 0;
+		}
+		html 
+		{
+			scroll-behavior: smooth;
+		}
+		mark:hover
+		{
+			background: cyan;
+			cursor: pointer;
+			text-decoration-line: underline;
+			text-decoration-color: goldenrod;
+			text-decoration-style: double;
+			font-style: italic;
+			transition: all .5s;
+			border-radius: 10px;
+		}
+		li mark:hover
+		{
+			background: red;
+			color: white;
+			text-decoration-line: underline;
+			text-decoration-color: lime;
+			transition: all .5s;
+		}
+		li mark a:hover
+		{
+			background: orange;
+			color: blue;
+			text-decoration-line: underline;
+			text-decoration-color: lime;
+			transition: all .5s;
+			border-radius: 0px;
+		}
+		button
+		{
+			background: rosybrown;
+			box-shadow: 5px 5px 5px black;
+		}
+		li mark button
+		{
+			background: purple;
+			box-shadow: 5px 5px 5px black;
+		}
+		mark button:hover
+		{
+			transform: scale3d(1.5, 1.5, 1.5);
+			transition: all .8s;
+		}
+		i:hover 
+		{
+			cursor: pointer;
+			color: lime;
+			animation-name: icon;
+			animation-duration: 1s;
+			animation-timing-function: ease;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes icon 
+		{
+			20%{color: orange;}
+			40%{color: yellow;}
+			60%{color: blue;}
+			80%{color: red;}
+			100%{color: darkgreen;}
+		}
+		
+	</style>
+</head>
+<body bgcolor="black" >
+	<div class="container1">
+		<div class="box1" >
+			<header>
+			   <button><i class="fa fa-home" style="font-size: 35px;"></i><a href="#INTRODUCTION">Home</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button><i class="fa fa-phone" style="font-size: 35px;"></i><a href="#CONTACT">Contact</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button><i class='fa fa-graduation-cap' style="font-size: 35px;"></i><a href="#EDUCATION">Education</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button><a href="#BLOG">Blog</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button><i class="fa fa-skype" style="font-size: 35px;"></i><a href="#SKILLS">Skills</a></button>
+		    </header>
+		</div>
+	</div>
+						
+						<hr>
+
+	<div class="container2" id="INTRODUCTION">
+		<div class="box2">
+			<h1><i><u>INTRODUCTION</u></i></h1>
+			<div class="content2" title="Forest Image">
+				<p>I <mark>Meet Patel</mark>.I am from <mark>Boroda.</mark></p>
+			</div>
+		</div>
+	</div>
+
+					    <hr>
+
+	<div class="container3" id="CONTACT">
+		<div class="box3">
+			<h1><i><u>CONTACT</u></i></h1>
+			<div class="content3" title="Mountain Image">
+				<p><a href="mailto:mp427153#gmail.com">mp427153@gmail.com</a></p>
+			</div>
+		</div>
+	</div>
+					   
+				       <hr>
+
+	<div class="container4" id="EDUCATION">
+		<div class="box4">
+			<h1><i><u>EDUCATION</u></i></h1>
+			<div class="content4" title="River Image">
+				<p>I Completed my Education in the year of 2019.</p>
+			</div>
+		</div>
+	</div>
+					   <hr>
+
+	
+	<div class="container5" id="BLOG">
+		<div class="box5">
+			<h1><i><u>BLOG</u></i></h1>
+			<div class="content5" title="city">
+				<p><a href="meetinfotech73918097.wordpress.com">meetinfotech73918097.wordpress.com</a></p>
+			</div>
+		</div>
+	</div>
+						<hr>
+
+	<div class="container6" id="SKILLS">
+		<div class="box6">
+			<h1><i><u>SKILLS</u></i></h1>
+			<div class="content6" title="Sweden Image">
+				
+					<li><mark><button><a href="https://www.w3schools.com/html/default.asp" target="_blank" title="link">HTML</a></button></mark></li>
+											<br>
+					<li><mark><button><a href="https://www.w3schools.com/css/default.asp" target="_blank" title="link">CSS</a></button></mark></li>
+											<br>
+					<li><mark><button><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank" title="link">BOOTSTRAP</a></button></mark></li>
+											<br>
+					<li><mark><button><a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank" title="link">SVG</a></button></mark></li>
+				
+			</div>
+		</div>
+	</div>
+
+						<hr>
+
+	<div class="container7">
+		<div class="box7">
+			<footer>
+				<address>Design by : Meet Patel</address>
+				     <button><a href="Portfolio.html">Back to Top</a></button>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
